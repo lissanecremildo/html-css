@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tags de agrupamento ou grouping tangs</title>
+
+    <style>
+        @font-face {
+            font-family: 'openSans';
+            src: url(fonts/OpenSans-Italic.ttf) format('trutype');
+            src: url(fonts/OpenSans.ttf) format('trutype');
+        }
+
+        @font-face {
+            font-family:"quicksand";
+            src: url('fonts/Quicksand.ttf') format("truetype");
+
+        }
+        body{
+            font-family:'quicksand', Arial, sans-serif;
+            background-color: rgb(255, 255, 255);
+            margin: auto;
+        }
+
+        header{
+            background-color: rgba(77, 49, 77, 0.61);
+            padding: 10px;
+            margin:10px;
+        }
+
+        header>h1{
+            margin: 15px auto;
+            width: auto;
+            text-align: center;
+        }
+
+        nav{
+            text-decoration: none;
+            background-color: rgba(99, 97, 100, 0.658);
+            margin: auto;
+            width: 700px;
+            box-shadow: 2px 2px 5px black;
+            border-radius: 1px;
+            text-align: center;
+        }
+
+        nav>a{
+            text-decoration: none;
+            color: white;
+            margin: 30px;
+        }
+
+        nav>a:hover{
+            color: darkred;
+        }
+        main{
+            background-color: rgba(116, 116, 113, 0.849);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article{
+            background-color: rgba(95, 94, 95, 0.452);
+            margin:auto;
+            padding: 5px;
+        }
+
+        article>h2{
+            margin: auto;
+            color: #FE9C00;
+            font: 'openSans', Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        article>aside{
+            background-color:rgba(13, 13, 14, 0.164);
+            font: italic lighter Arial, Helvetica, sans-serif;
+            color:#FE9C00;
+            text-align: right;
+            margin: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582);
+        }
+
+        footer{
+            background-color: lightslategray;
+            color: italic lighter white Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 1px;
+            margin: 10px;
+        }
+
+        footer>p{
+            margin: 0px;
+        }
+
+        footer>a:hover{
+            color:#FE9C00;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site com menus de navegação</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Noticias nacionais</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quaerat hic alias fuga maxime dolor dicta porro. Soluta maxime explicabo deserunt expedita, ipsa quam id porro in! Perferendis, aut id! <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet beatae dolore maxime, tenetur excepturi repudiandae iure ducimus recusandae, perspiciatis atque sint assumenda cupiditate porro corporis, nemo mollitia error placeat quos!
+                </p>
+                <aside>
+                    <p>
+                        Artigo escripor Cremildo Lissane Júnior
+                    </p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>
+            Curso desenvolvido por <a href="https://www.cursoemvideo.com/">cursoemvideo.com</a> 
+        </p>
+    </footer>
+  
+</body>
+</html>

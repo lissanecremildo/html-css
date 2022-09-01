@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>utilização de fontes baixasas</title>
+
+    <style>
+
+        
+        @font-face {
+            font-family: 'palmeiras';
+            src: url('fontes/palmeiras.ttf') format('truetype');
+            font-weight: normal; font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'spacetime';
+            src: url('fontes/spacetime.ttf') format('truetype');
+        }
+        
+        /*Importando fontes da Google fontes*/
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+        body {
+            
+
+            /*uso de shorthans, permite declarar todas as varias da classe font na mesma linha usando a variavel font*/
+
+            font: italic normal 1.05em 'Work Sans', sans-serif;
+            ;
+              
+        }
+        h1 {
+            font: 5em 'palmeiras', Arial, Helvetica, sans-serif, monospace;
+            text-align: center;
+            color: rgb(10, 88, 14);
+        }
+
+        h2 {
+            font: 4em 'spacetime', Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: darkorange;
+        }
+
+        p {
+            text-align: justify;
+            text-indent: 30px;
+            text-rendering: geometricPrecision;
+        }
+
+    </style>
+</head>
+<body>
+<main>
+    
+        <h1>Fontes  externas  baixadas</h1>
+        <h2>Capitulo 1</h2>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus delectus distinctio architecto obcaecati quisquam repellendus repudiandae molestiae reiciendis ab quibusdam consequatur debitis accusamus illo quos, corporis quasi, reprehenderit perspiciatis consectetur? <br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti est commodi nostrum corrupti repudiandae, culpa saepe alias cum sit repellendus molestias quaerat odio expedita incidunt debitis eum minus dolorem aliquid. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta neque fugiat placeat, odit voluptate eos sunt officiis animi voluptatem. Inventore nobis quasi voluptatem repudiandae cumque nihil voluptas placeat assumenda mollitia.
+        </p>
+    
+        <h2>Capitulo 2</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus incidunt veritatis exercitationem, facilis voluptatem fuga ea ipsa! Vel nihil, temporibus, assumenda nesciunt, error provident totam aliquam iste at voluptates facere. <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur aliquam, dolore officia, nemo rerum, neque ratione vel pariatur molestias cupiditate id veniam! Eaque doloremque veniam porro repellendus, quos corporis ab!
+        </p>
+</main>
+    
+</body>
+</html>

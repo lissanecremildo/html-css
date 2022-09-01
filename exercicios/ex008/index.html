@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação semantica</title>
+</head>
+<body>
+    <h1>Formatação semântica em html5</h1>
+    <h2>Negrito/Destaque</h2>
+    <p>
+        Pintar um texto em <b>negrito</b> com a tag <b>b</b> <br>
+        é diferente de <strong>destacar o texto</strong> com a tag <strong>strong</strong>, pois o <b>negrito</b> é a formatção visual, ao passo que <strong>destacar</strong> significa que a palavra ou frase é relevante (semantica).
+    </p>
+    <h2>Italico/ ênfase</h2>
+    <p>
+        sublinhar uma palvra com <i>Italico</i> usando a tag <i>i</i> <br>
+        é diferente de colocar o texto em <em>ênfase</em> usando a tag <em>em</em>, pois damos enfase quando a assunto é relevante (semantica)
+    </p>
+    <h3>Barrar o texto, usamos a tag del</h3>
+    <p>
+        <del>veja o exemplo de um texto barrado</del>
+    </p>
+    <h3>Para sublinhar o texto usamos a tag ins</h3>
+    <p>
+        <ins>Aqui está um texto sublinhado como exemplo</ins>
+    </p>
+    <h3>Para superescrever e subescrever usammos as tags sup e sub </h3>
+    <p>
+        Aqui está o exemplo de um texto superescrito <strong>x<sup>2</sup></strong> <br>
+        e subescrito <strong>H<SUb>2</SUb>O</strong>
+    </p>
+    <h3>Para inserir um trecho de codigo usamos a tag code acompanhado da tag pre</h3>
+    <p>
+        <pre>
+            <code>
+                public class Numero {
+                    public static void main(String args[]) { 
+                      double x,y;
+                      System.out.print("x = 2.0"); 
+                      x = 2;
+                      y = 3.0; /* iniciando o y, e fazendo y = y+x; */ y = y + x;
+                      System.out.println("x+y = " + (x+y));
+                   }
+                  } 
+                  
+                  public class Numero {
+                    public static void main(String args[]) { 
+                      double x,y; 
+                   
+                      x = 2;
+                      y = 3.0;  y = y + x;
+                  
+                     System.out.println("x+y = " + (x+y));
+                   }
+                  }
+            </code>
+        </pre>
+    </p>
+
+    <h3>Para inseri uma citacao usamos as tags q ou blockquote </h3>
+    <p>
+        <h4>Ciacao usando a tag q</h4>
+        <q>transporte é a movimentação de bens e passageiros de um lugar para outro atraves de meios apropriados</q>
+    </p>
+    <h4>Citacao longa usando blockquote </h4>
+    <p>
+        <blockquote>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis quibusdam animi quod placeat eveniet repellendus sit! Voluptate, dolor error doloremque distinctio voluptatum accusantium soluta explicabo cupiditate et consequatur. Cupiditate, quaerat?</blockquote>
+    </p>
+    <h3>Existe tambem tag para abreviaturas abbr ou acronimos</h3>
+    <p>
+        <abbr title="Cascading Style Sheets">CSS</abbr>
+    </p>
+
+    <h3>Tag para inverter o texto bdo (bidirectional override</h3>
+    <p>
+        veja aqui esta <bdo dir="rtl">Frase Completamente Invertida</bdo>
+    </p>
+
+    <h3>A tag mark serve para destacar o texto atraves de cor; por padrao a cor é verde, mas podemos modificar introduzindo a variavel style da CSS</h3>
+    <p>Aqui estao alguns exemplos <mark>Lorem</mark>, ipsum dolor sit amet consectetur adipisicing elit. Quos sequi eum ducimus omnis, iusto tenetur fuga, <mark style="background-color:rgb(27, 39, 3);">repudiandae exercitationem</mark> minima, eius quod alias debitis dignissimos? Molestias voluptate sapiente modi harum consectetur.</p>
+</body>
+</html>

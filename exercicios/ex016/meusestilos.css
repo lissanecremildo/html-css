@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body {
+
+    font: normal 1.05 Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #124379, #9493c4, #ab9dc9, #9668a5, #793d7d);
+}
+
+.topico {
+    font: italic lighter 22px  'Open Sans', Arial, Helvetica sans-serif;
+    color: #FE9C00;
+    text-align: left;
+}
+
+.basico {
+    font: oblique lighter 18px 'Open Sans', Arial, Helvetica, sans-serif;
+    color: rgba(158, 12, 41, 0.658);
+    background-color: rgba(171, 180, 177, 0.37);
+}
+
+.medio {
+    font: oblique lighter 18px 'Open Sans', Arial, Helvetica, sans-serif;
+    color: rgb(48, 5, 12);
+    background-color: rgba(171, 180, 177, 0.37);
+}
+.avancado {
+    font: oblique lighter 18px 'Open Sans', Arial, Helvetica, sans-serif;
+    color: rgb(58, 9, 87);
+    background-color: rgba(171, 180, 177, 0.37);
+}
+
+#titulo {
+    font: oblique lighter 36px 'Open Sans' Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    break-after: always;
+}
+
+.destaque {
+    background-color: #9493c4;
+}

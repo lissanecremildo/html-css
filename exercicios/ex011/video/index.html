@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospendagem de videos localmente</title>
+</head>
+<body>
+    <h1>Tags para hospedagens de video localmente</h1>
+
+    <!--O parametro CONTROLS exibe os controls de play do video no browser, se definir este parametro, nao ha como executar o video
+    ----O paramentro POSTER define uma imagem do fundo que será exibida quando o video nao esta a executar
+    ----O parametro Width define a largura que o video ira ocupar na tela do navegador por padrao
+    Como os diferentes navegadores suportam diferentes formatos de video, é melhor colocar o mesmo video em varios formatos
+    
+    NB: Hospedar os videos desta forma, aqui localmente no servidor do site, é muito caro, pois consome muito trafego de dados-->
+    <video controls width="300" poster="imagens/praia.png" clipboard-write>
+        <source src="Video1.mp4" type="video/mp4">
+        <source src="Video-1.mkv" type="video/mkv">
+        <source src="Video-1.webm" type="video/web">
+        <source src="Video1.ogv" type="video/ogv">
+        <p>Infelizmente não é possivel reproduzir o video</p>
+    </video>
+
+    <p><strong>A tag frame tambem permite inserir videos na pagina html, a vantagem é que ja vem com os controls definidos</strong></p>
+    <iframe width="300" height="200" src="Video--2.mp4" title="video-hospedagem-local" frameborder="0" allowfullscreen></iframe>
+
+    <h2>Inserindo videos em hospedagem externa</h2>
+    <p>
+        A melhor solção para videos é coloca-los em servidores de hospedagens de video, tais como youtube e vimeo. Assim o custo de trafigo de dados é zero. A hospedagem no youtube é free, mas o video fica visivel ao publico mas no vimeo é pago, mas fica privado.
+        Uma vez hospedado o video servidor, é so copiar o codigo html fornecido pelo servidor e colar na sua pagina html.
+    </p>
+
+    <h3>Inserido video do youtube</h3>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/m7p0C9VJu6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h3>Inserindo videos do vimeo</h3>
+        <iframe title="vimeo-player" src="https://player.vimeo.com/video/485545155?h=b61816ff9a" width="300" height="200" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>

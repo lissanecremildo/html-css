@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas em html5</title>
+</head>
+<body>
+    <h1>Ediçao de listas</h1>
+    <h2>Listas ordenadas ou ordered list (ol)</h2>
+    <p>
+        Para criar uma lista ordenada usamos a tag &lt;ol&gt; e para inserir os itens da lista (list item) usamos a tag &lt;li&gt;
+
+        <ol>
+            <li>acordar</li>
+            <li>meditar</li>
+            <li>escovar dentes</li>
+            <li>tomar banho</li>
+            <li>matabichar</li>
+            <li>ir ao serviço</li>
+        </ol>
+
+        <p>
+            Podmos definir o tipo do conteúdo da lista, usando a variavel <strong>type</strong>, que recebe numeros (1) por padraro, letras maiusculas (A), letras minusculas (a), <br>numeros romanos maiusculos (I) e numeros romanos minusculos (i); <br>podemos tambem a posicao que a lista de começar usando a variavel <strong>start</strong>
+
+            <ol type="I" start="4">
+                <li>acordar</li>
+                <li>meditar</li>
+                <li>escovar dentes</li>
+                <li>tomar banho</li>
+                <li>matabichar</li>
+                <li>ir ao serviço</li>
+            </ol>
+        </p>
+
+        <h2>Listas não ordenadas ou unordered list (ul)</h2>
+        Para criar uma lista nao ordenada usamos a tag &lt;ul&gt; que recebe a variel "disk" (bolinha preta pintada) por padrao <br>, mas tambem podemos definir as variaveis "circle" e "square"
+        <ul type="square" >
+            <li>arroz</li>
+            <li>oleo</li>
+            <li>cebola</li>
+            <li>batata</li>
+            <li>frango</li>
+        </ul>
+        <h2>Listas mistas ol e ul</h2>
+        <p>
+            <ol>
+                <li>Produtos alimentares</li>
+                <ul type="circle">
+                    <li>Arroz</li>
+                    <li>Oleo</li>
+                        <ul>
+                            <li>Dona</li>
+                            <li>Sunshine</li>
+                            <li>Maeva</li>
+                        </ul>
+                    <li>Peixe</li>
+                    <li>Batata</li>
+                </ul>
+                <li>Material escolar</li>
+                <ul type="square">
+                    <li>Cadernos</li>
+                    <li>Reguas</li>
+                    <li>Canetas</li>
+                    <li>Borachas</li>
+                </ul>
+            </ol>
+        </p>
+    </p>
+    <h2>Lista de definiçoes dl (definiton list)</h2>
+    Para criar uma lista de definições usamos a tag &lt;dl&gt; e para definir o termo de cada definição (definition term) usamos a <strong>dt</strong> <br> e para descrever a definição do termo usamos a tag <strong>dd</strong> (definition description)
+    <p>
+        <dl>
+            <dt>HTML <dd>Liguagem de marcação de hipertexto para desenvolver paginas web</dd>
+            </dt>
+            <dt>CSS <dd>Folhas de estilo em cascata para design de paginas web</dd></dt>
+        </dl>
+    </p>
+</body>
+</html>

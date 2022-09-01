@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-elementos e pseuso-classes</title>
+
+    <style>
+       div>p{ 
+            display: none; /*Oculta o conteudo contido no paragrfo*/
+       }
+
+       div:hover>p{
+            display: block;
+            color:aliceblue;
+            font-size: medium;
+            width: 300px;
+            background-color: rgb(185, 185, 13);
+       }
+    </style>
+</head>
+<body>
+    
+    <h1>Conteudo especial</h1>
+    <div>
+        Passe o mouse aqui!
+        <p>SURPRESA</p>
+    </div>
+    <p>Veja o conteudo oculto aparecendo!</p>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo de caixas ou box model</title>
+
+    <style>
+        h1{
+            /*width: 300px;
+            height: 100px;
+            background-color: lightgrey;
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+            padding: 20px;
+            outline-width: 10px;
+            outline-style: solid;
+            outline-color:#bd283e;;
+            margin: 30px auto;*/
+
+            /*Podemos usar uma SHORTHANDS*/
+
+            width: 600px;
+            height: 150px;
+            background-color: rgba(135, 137, 139, 0.493);
+            padding: 5px;
+            border: 20px solid rgb(82, 77, 77);
+            outline: 10px solid rgba(158, 155, 153, 0.226);
+            margin: 50px auto;
+            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.815);
+            border-radius: 0px 5px;
+        }
+
+        a{
+            background-color: rgb(209, 150, 78);
+            color: white;
+            border-width: 5px;
+            border-style: solid;
+            border-color: orange;
+            margin: 10px auto;
+            text-decoration: none;
+        }
+        p{
+            
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixas, o h1 é um bolck-level</h1>
+
+    <p>O paragrafo 'p' é tambem um block-level, mas os links sao <a href="#">exemplo de um inline-level</a>, pois pode ocupar qualquer posicao dentro dos elementos html</p>
+    
+</body>
+</html>

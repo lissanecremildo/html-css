@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalhando com medias</title>
+</head>
+<body>
+    <h1>Imagens que se adaptam a qualquer tamanho de tela</h1>
+    <p>
+        Abra a pagina em varios dispositivos de tamanho diferente ou aumente e diminua o tamanho do navegador <br>
+        A tag <strong>picture</strong> permite que a pagina mude de fotos automaticamente, assim que aumenta ou diminua do tamho, <br> Para definir o tamanho maximo ou minimo da tela a partir da qual se troca de imagem <br> usamos o atributo <strong>source do tipo media type</strong>
+    </p>
+    
+     <picture>
+         <source media="(max-width:750px)" srcset="imagens/foto_p.png" type="image/png"> <!--se a tela for <= 750px, apresenta a foto_p.png-->
+
+         <source media="(max-width:1050px)" srcset="imagens/foto_m.png" type="image/png"><!--se a tela for <= 1050px, apresenta a foto_m.png-->
+
+        <img src="imagens/foto_g.png" alt="imagem flexivel"> <!--senao, apresenta a foto_g.png-->
+     </picture>
+
+     <h1>media de audio</h1>
+     <p>
+         Como inserir arquivo de audio no html
+     </p>
+     <ul>
+         <li>open-door <br>
+                <audio autoplay controls>
+                    <source src="media/open-door.mp3" type="audio/mpeg">
+                </audio>
+            </li>
+            <li>afirmacoes de riqueza <br>
+                <audio autoplay controls>
+                    <source src="media/afirmacoes-riqueza.m4a" type="audio/mpeg">
+                </audio>
+            </li>
+        </ul>
+
+</body>
+</html>

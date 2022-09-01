@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>criação de links</title>
+</head>
+<body>
+    <h1>Criação de links</h1>
+    <p>
+        Para criar um link usamos <strong>âncora a </strong> qu tem como atributo principal o <br> href onde inserimos a <strong>URL</strong> do link de destino
+
+        <a href="https://gustavoguanabara.github.io">Repositorio github do gustavoguanabara
+        </a>
+    </p>
+    <p>
+        <a href="https://www.youtube.com">youtube</a>
+    </p>
+
+    <h2>Links Externos</h2>
+    <p>
+        Para criar link externo inserimos a palavar <strong>exernal</strong> no atributo <strong>ref</strong> como valo e <strong>_blank</strong> no atributo <strong>target</strong>, para que uma nova janela seja aberta
+    </p>
+    <p>
+        <a href="https://www.cursoemvideo.com/" target="_blank" rel="exernal">Curso em video</a>
+    </p>
+
+    <h2>Links internos</h2>
+    <p>
+        para criarmos links para paginas internas do mesmo site introsuzimos <strong>next ou prev </strong>para avançar a pafina <br> seguinte recuar a pagina anterio; tambem podemos indicar como valor o <strong>self</strong> do atributo target para especificar  <br>que o link partence a uma pagina do mesmo site
+    </p>
+    <a href="pag002.html" rel="next">Ir a pagina2
+
+    </a>
+    
+    <p>
+        Podemos acessar a uma pagina que esta dentro duma subpasta da pasta onde se encontra a pagina inicial <br> basta indicar o nome da pasta/nomedapagina <br>
+
+        <a href="noticias/pag003.html" rel="next">Pagina-de-Noticias</a>
+    </p>
+
+    <h1>Links para download</h1>
+    <p>
+        Para criar um link para download de arquivos basta indicar o caminho do arquivo que se pretende baixar <br> conmo valor do atributo <strong>href</strong>, depois indicar o  nome do arquivo como valor do atributo <strong>download</strong> <br> e, por fim, indicar o tipo de arquivo como valor do atributo <strong>type</strong>
+        <p>
+            <ul>
+                <li>
+                    <a href="livro-Formatação-de-Textos.zip" download="livro-Formatação-de-Textos.zip" type="application/zip">Baixar livro Formatacao de texto Html</a>
+                </li>
+                <li>
+                    <a href="livro-html-css.zip" download="livro-html-css" type="application/zip">Baixa livro html-css</a>
+                </li>
+                <li>
+                    <a href="livro-Listas-HTML.pdf" download="livro-Listas-HTML" type="application/pdf">Baixar livro Listas-HTML</a>
+                </li>
+            </ul>
+        </p>
+    </p>
+</body>
+</html>
